@@ -1,2 +1,3 @@
-# Math-Python-Matlab
+# Math-Python
+# Applications of Mathematics in Python
 
