@@ -1,0 +1,293 @@
+>> x = [1 2 3]
+
+x =
+
+     1     2     3
+
+>> y = [ 4 5 6]
+
+y =
+
+     4     5     6
+
+>> cross(x,y)
+
+ans =
+
+    -3     6    -3
+
+>> sin(0)
+
+ans =
+
+     0
+
+>> cos(0)
+
+ans =
+
+     1
+
+>> tan(0)
+
+ans =
+
+     0
+
+>> A = (1 2; 3 4]
+ A = (1 2; 3 4]
+        ↑
+Error: Invalid expression. Check for missing multiplication
+operator, missing or unbalanced delimiters, or other syntax
+error. To construct matrices, use brackets instead of
+parentheses.
+ 
+>> A = (1 2 ; 3 4)
+ A = (1 2 ; 3 4)
+        ↑
+Error: Invalid expression. Check for missing multiplication
+operator, missing or unbalanced delimiters, or other syntax
+error. To construct matrices, use brackets instead of
+parentheses.
+ 
+>> A = [ 1 2; 3 4];
+>> A
+
+A =
+
+     1     2
+     3     4
+
+>> sin(A)
+
+ans =
+
+    0.8415    0.9093
+    0.1411   -0.7568
+
+>> sin(1)
+
+ans =
+
+    0.8415
+
+>> sin(2)
+
+ans =
+
+    0.9093
+
+>> sin(3)
+
+ans =
+
+    0.1411
+
+>> sin(4)
+
+ans =
+
+   -0.7568
+
+>> exp(1)
+
+ans =
+
+    2.7183
+
+>> log(1)
+
+ans =
+
+     0
+
+>> log(2)
+
+ans =
+
+    0.6931
+
+>> 
+>> log(exp(1))
+
+ans =
+
+     1
+
+>> sqrt(9)
+
+ans =
+
+     3
+
+>> sqrt(10)
+
+ans =
+
+    3.1623
+
+>> pi
+
+ans =
+
+    3.1416
+
+>> pi/2
+
+ans =
+
+    1.5708
+
+>> pi * 3
+
+ans =
+
+    9.4248
+
+>> pi = 2
+
+pi =
+
+     2
+
+>> pi
+
+pi =
+
+     2
+
+>> pi
+
+ans =
+
+    3.1416
+
+>> pi/3
+
+ans =
+
+    1.0472
+
+>> e
+Unrecognized function or variable 'e'.
+ 
+>> e = (4);
+>> e
+
+e =
+
+     4
+
+>> exp(1)
+
+ans =
+
+    2.7183
+
+>> sqrt(-1)
+
+ans =
+
+   0.0000 + 1.0000i
+
+>> sqrt(90)
+
+ans =
+
+    9.4868
+
+>> exp(8)
+
+ans =
+
+   2.9810e+03
+
+>> i
+
+ans =
+
+   0.0000 + 1.0000i
+
+>> i*i
+
+ans =
+
+    -1
+
+>> sin(pi)
+
+ans =
+
+   1.2246e-16
+
+>> sin(pi)
+
+ans =
+
+   1.2246e-16
+
+>> cos(pi)
+
+ans =
+
+    -1
+
+>> sin(pi) = cos(pi)
+Array indices must be positive integers or logical values.
+ 
+>> sin(pi)+ i*cos(pi)
+
+ans =
+
+   0.0000 - 1.0000i
+
+>> I = [ 1 0 0 ; 0 1 0; 0 0 1];
+>> I
+
+I =
+
+     1     0     0
+     0     1     0
+     0     0     1
+
+>> zero(3)
+Check for missing argument or incorrect argument data type in
+call to function 'zero'.
+ 
+>> zeroes(3)
+Unrecognized function or variable 'zeroes'.
+ 
+Did you mean:
+>> zeros(3)
+
+ans =
+
+     0     0     0
+     0     0     0
+     0     0     0
+
+>> ones(3,2)
+
+ans =
+
+     1     1
+     1     1
+     1     1
+
+>> ones(4)
+
+ans =
+
+     1     1     1     1
+     1     1     1     1
+     1     1     1     1
+     1     1     1     1
+
+>> ones(2)
+
+ans =
+
+     1     1
+     1     1
+
+>> 
